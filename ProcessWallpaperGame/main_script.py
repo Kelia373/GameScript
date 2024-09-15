@@ -3,11 +3,16 @@ from file_utils import find_largest_file, move_file, extract_7z
 
 # 配置输入信息
 source_directories = [
-    r'G:\Game\Steam\steamapps\workshop\content\431960\3318024587'
+    r'G:\Game\Steam\steamapps\workshop\content\431960\3315489374',
+    r'G:\Game\Steam\steamapps\workshop\content\431960\3315474820',
+    r'G:\Game\Steam\steamapps\workshop\content\431960\3315503870',
+    r'G:\Game\Steam\steamapps\workshop\content\431960\3315531114',
+    r'G:\Game\Steam\steamapps\workshop\content\431960\3315541345',
+    r'G:\Game\Steam\steamapps\workshop\content\431960\3315550865'
 ]  # 替换为实际的源路径列表
-target_directories = [r'F:\Game\Game_5']  # 替换为实际的目标路径列表
-passwords = ['FS', 'W', 'YS', '33157']  # 替换为实际的密码列表
-move_only = True # 设置为 True 以仅移动文件
+target_directories = [r'F:\Game\Game_8']  # 替换为实际的目标路径列表
+passwords = ['FS', 'W', 'YS', '33157', 'Chen']  # 替换为实际的密码列表
+move_only = True # 设置为 True 以仅移动文件 False
 extract_only = True  # 设置为 True 以仅解压文件
 
 # 确保目录存在
